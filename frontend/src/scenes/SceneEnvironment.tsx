@@ -42,7 +42,7 @@ export function SceneEnvironment() {
       />
 
       {/* Post-processing Bloom — makes neon elements glow */}
-      <EffectComposer disableNormalPass multisampling={4}>
+      <EffectComposer enableNormalPass={false} multisampling={4}>
         <Bloom
           luminanceThreshold={0.15}
           luminanceSmoothing={0.8}
