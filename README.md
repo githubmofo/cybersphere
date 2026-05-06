@@ -404,4 +404,4 @@ cd frontend && npm run build
 ***
 ## Author
 
- . Jenish Lad
+- Jenish Lad
