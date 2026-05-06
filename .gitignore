@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML data (too large for git)
+ml/data/*.csv
+ml/data/*.parquet
+ml/models/*.joblib
+ml/models/*.pkl
+
+# Logs
+*.log
+
+# Docker
+.docker/
+
+# Agent directory (generated)
+.agent/history/
+.agent/.backups/
